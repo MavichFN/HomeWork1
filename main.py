@@ -6,3 +6,6 @@ class Pet:
             self.Dog = Dog
             self.Cat = Cat
             self.Parrot = Parrot
+        def add_animals(self, Pet):
+            self.animals.append(Pet)
+
